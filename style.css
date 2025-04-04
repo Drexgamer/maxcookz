@@ -1,0 +1,58 @@
+/* Reset the default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background color and general font */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Helles Grau */
+    color: #333; /* Dunkles Grau für Text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Style */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ff6347; /* Tomatenrot */
+    margin-bottom: 20px;
+}
+
+/* Main Content Style */
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555; /* Etwas heller als Textfarbe */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Button Style */
+a.button {
+    display: inline-block;
+    background-color: #ff6347; /* Tomatenrot */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #e53e3e; /* Dunkleres Rot beim Hover */
+}
+
+/* Styling for Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
