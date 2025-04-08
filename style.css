@@ -1,58 +1,40 @@
-/* Reset the default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-/* Background color and general font */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5; /* Helles Grau */
-    color: #333; /* Dunkles Grau für Text */
-    line-height: 1.6;
-    padding: 20px;
+.hero {
+  background-image: url('salat.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
 
-/* Header Style */
-h1 {
-    text-align: center;
-    font-size: 3rem;
-    color: #FFFFFF; /* Tiefschwarz */
-    margin-bottom: 20px;
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
 }
 
-/* Main Content Style */
-p {
-    text-align: center;
-    font-size: 1.2rem;
-    color: #555; /* Etwas heller als Textfarbe */
-    max-width: 700px;
-    margin: 0 auto;
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-/* Button Style */
-a.button {
-    display: inline-block;
-    background-color: #ff6347; /* Tomatenrot */
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    text-align: center;
-    transition: background-color 0.3s ease;
+.hero-content a {
+  padding: 10px 20px;
+  background-color: #ff6a00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
 }
 
-a.button:hover {
-    background-color: #e53e3e; /* Dunkleres Rot beim Hover */
-}
-
-/* Styling for Footer */
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9rem;
-    color: #777;
+.hero-content a:hover {
+  background-color: #ff8500;
 }
